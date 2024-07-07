@@ -71,7 +71,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: #5f5656 6px solid;
+    border: #5f5656 5px solid;
     object-fit: cover;
 }
 
