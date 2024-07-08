@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 
 body {
     font-family: "Titillium Web", sans-serif;
@@ -75,6 +75,10 @@ body {
     object-fit: cover;
 }
 
+.profile-image img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .profile-info {
     text-align: left;
     width: 50%;
@@ -89,6 +93,33 @@ body {
 
 .general-info li {
     margin-bottom: 10px;
+}
+
+.academic-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.academic-item {
+    text-align: left;
+    width: 60%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.academic-item h3 {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.academic-item p {
+    font-size: 1.2em;
+    margin: 5px 0;
 }
 
 .footer {
@@ -134,6 +165,10 @@ body {
         width: 200px;
         height: 200px;
     }
+
+    .academic-item {
+        width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -147,5 +182,13 @@ body {
 
     .profile-info {
         font-size: 1.2em;
+    }
+
+    .academic-item h3 {
+        font-size: 1.2em;
+    }
+
+    .academic-item p {
+        font-size: 1em;
     }
 }
