@@ -81,9 +81,12 @@ body {
 
 .profile-info {
     text-align: left;
-    width: 50%;
-    font-size: 1.5em;
-    font-weight: 300;
+    width: 40%;
+    font-size: 1.2em;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .general-info {
@@ -95,33 +98,7 @@ body {
     margin-bottom: 10px;
 }
 
-.academic-experience {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.academic-item {
-    text-align: left;
-    width: 60%;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.academic-item h3 {
-    font-size: 1.5em;
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
-
-.academic-item p {
-    font-size: 1.2em;
-    margin: 5px 0;
-}
-
+.academic-experience,
 .job-experience {
     display: flex;
     flex-direction: column;
@@ -129,6 +106,7 @@ body {
     gap: 20px;
 }
 
+.academic-item,
 .job-item {
     text-align: left;
     width: 60%;
@@ -138,12 +116,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.academic-item h3,
 .job-item h3 {
     font-size: 1.5em;
     color: #4CAF50;
     margin-bottom: 10px;
 }
 
+.academic-item p,
 .job-item p {
     font-size: 1.2em;
     margin: 5px 0;
@@ -198,7 +178,8 @@ body {
         height: 200px;
     }
 
-    .academic-item, .job-item {
+    .academic-item,
+    .job-item {
         width: 80%;
     }
 }
@@ -216,11 +197,13 @@ body {
         font-size: 1.2em;
     }
 
-    .academic-item h3, .job-item h3 {
+    .academic-item h3,
+    .job-item h3 {
         font-size: 1.2em;
     }
 
-    .academic-item p, .job-item p {
+    .academic-item p,
+    .job-item p {
         font-size: 1em;
     }
 }
